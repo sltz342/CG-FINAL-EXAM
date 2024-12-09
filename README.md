@@ -16,3 +16,20 @@ Depending on where the shader is in relation to the camera, verts closer to the 
 I choose to use a Color Vertex Shader for the stands of the map because I wanted an interesting effect that would be interesting to look at and would change it's color depending on where you were when you started looking at it. 
 ![Blank diagram](https://github.com/user-attachments/assets/af00ca9a-6d5e-491c-ab2f-73872a9b191f)
 
+
+
+
+
+Outline Shader:
+
+I Wanted the Player to stand out from the everchanging wave rainbow texture that was on the floor, so I gave them an outline shader in order to make them more visible and pop out.
+I achieved this by creating a shader that would cull verts if they were determined to be in front of the camera, by using screen space projection and the normals of the verts. If the verts normals' were facing away from the camera, they were not culled. 
+![{0D377DF9-A52B-4A90-9042-9676C63E64A6}](https://github.com/user-attachments/assets/02c6de46-ea51-4d89-9e5e-974327d49571)
+
+Rainbow Wave Shader:
+I wanted the ground to be similar to the original image for Super Mario Kart with Rainbow Ride being a rainbow road in space. As such, I created a wave effect that would combine two different rainbow textures to create a shimmering and moving rainbow effect on the ground, which looks better than the originals' static material for the road.
+
+
+https://github.com/user-attachments/assets/2e3434d3-d628-403a-a636-a1505a0bb6dc
+
+
