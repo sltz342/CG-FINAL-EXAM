@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MarioKartMenu.unity
+    guid: 8632ba4c4ad434c419b2c0b67ca457cc
+  - enabled: 1
+    path: Assets/Scenes/MarioKartGame.unity
+    guid: 3aa5b98eb3ba57f40a70d30efd3aad3d
   m_configObjects: {}
