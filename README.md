@@ -7,4 +7,12 @@ Color Vertex Shader. Outline Shader. Rainbow Wave Shader. Toon Shader
 ![{2B5493A7-6804-4612-BF18-6E5E800AEBBF}](https://github.com/user-attachments/assets/4671a8d2-8d24-4410-bc7f-c6265977b7ea) ![{EA08606B-4F0B-4830-A5B6-5B31BD5E5538}](https://github.com/user-attachments/assets/19ff712c-3310-4535-9676-dec2016eb9ee) ![{CBE20B88-10B6-4FA5-AE88-F991F64D9296}](https://github.com/user-attachments/assets/30aa5524-7420-49b7-b3a0-39f7dbeeff8f) ![{AAF04BCC-8E05-4146-AB0B-AC1769265458}](https://github.com/user-attachments/assets/52ec7a64-1ce0-475a-b627-edeebbd2b71a)
 
 
+Color Vertex Shader:
+
+This shader was implemented via HSL and focus on changing the colors of a vertex via the screen space posistions as opposed to a normal shader using the world space posistions.
+Depending on where the shader is in relation to the camera, verts closer to the top left turn green while verts closer to the bottom right turn red.
+![{53A030B3-431D-440F-9A0B-3264F2A64CCC}](https://github.com/user-attachments/assets/8bfcf01c-854a-4533-b6bd-2c8896cc14dc) ![{CBBD6C06-6F63-4AD7-A1E8-C4161CD59159}](https://github.com/user-attachments/assets/00b3e5e4-8a88-4cb4-8576-9dc8c1e6cd8d)
+
+I choose to use a Color Vertex Shader for the stands of the map because I wanted an interesting effect that would be interesting to look at and would change it's color depending on where you were when you started looking at it. 
+![Blank diagram](https://github.com/user-attachments/assets/af00ca9a-6d5e-491c-ab2f-73872a9b191f)
 
